@@ -115,7 +115,7 @@ class SearchPage extends StatelessWidget {
                     padding:
                         EdgeInsets.symmetric(vertical: 12.0, horizontal: 12.0),
                     child: Text(
-                      "Jazz",
+                      "Chill",
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 28.0,
@@ -137,7 +137,7 @@ class SearchPage extends StatelessWidget {
                     padding:
                         EdgeInsets.symmetric(vertical: 12.0, horizontal: 12.0),
                     child: Text(
-                      "House",
+                      "R&B",
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 28.0,
@@ -159,7 +159,7 @@ class SearchPage extends StatelessWidget {
                     padding:
                         EdgeInsets.symmetric(vertical: 12.0, horizontal: 12.0),
                     child: Text(
-                      "Reggae",
+                      "Punk",
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 28.0,
