@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final List<String> coverList = [
-    "https://i.pinimg.com/originals/f5/82/47/f58247463e38a536f442bfb816f62c6b.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2016/09/electro-synthwave-album-cover-500x500.jpg",
-    "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/102342461/original/68ef1e1fab3c4028d51f7fd7cfa9bad2232e576c/create-a-copyright-free-album-cover.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2016/02/volta-music-trailer-music-album-cover-design.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2018/07/Digital-World-album-cover-design.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2016/02/volta-music-trailer-music-album-cover-design.jpg"
+    "https://i.redd.it/mhefkjrkknc51.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/b/bd/Joyner_Lucas_-_ADHD.jpg",
+    "https://resources.tidal.com/images/c5e370fb/d4da/42ed/abd9/970f59651473/640x640.jpg",
+    "https://cdn.vox-cdn.com/thumbor/Luus90ukKG0ZpRObCS9irzCaNcE=/0x0:1200x1200/1400x1050/filters:focal(541x443:733x635):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/65062783/wsxazn6kvk3r0zs7sstv.8.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/e/ea/Machine_Gun_Kelly_-_Hotel_Diablo.png",
+    "https://upload.wikimedia.org/wikipedia/en/d/d8/Album_cover_for_the_Binge_%28EP%29.jpeg"
   ];
 
   Widget albumContainer(String coverUrl, String coverName) {
@@ -20,7 +20,12 @@ class HomePage extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(12.0),
               child: Container(
-                  height: 140.0, width: 140.0, child: Image.network(coverUrl)),
+                  height: 150.0,
+                  width: 150.0,
+                  child: Image.network(
+                    coverUrl,
+                    fit: BoxFit.fill,
+                  )),
             ),
             SizedBox(
               height: 12.0,

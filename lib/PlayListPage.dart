@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class PlayListPage extends StatelessWidget {
   final List<String> coverList = [
-    "https://i.pinimg.com/originals/f5/82/47/f58247463e38a536f442bfb816f62c6b.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2016/09/electro-synthwave-album-cover-500x500.jpg",
-    "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/102342461/original/68ef1e1fab3c4028d51f7fd7cfa9bad2232e576c/create-a-copyright-free-album-cover.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2016/02/volta-music-trailer-music-album-cover-design.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2018/07/Digital-World-album-cover-design.jpg",
-    "https://www.designformusic.com/wp-content/uploads/2016/02/volta-music-trailer-music-album-cover-design.jpg"
+    "https://i.scdn.co/image/ab67706f0000000378dce50f4355e0fd9fb68a65",
+    "https://i.scdn.co/image/ab67706f0000000387bff188c40608c48b82068f",
+    "https://i.scdn.co/image/ab67706f00000003ff7822d48c90134c3df20522",
+    "https://i.scdn.co/image/ab67706f0000000376e419ba421205538e686200",
+    "https://i.scdn.co/image/ab67706f000000037ca02cb96fb55f34e5a0b826",
+    "https://i.scdn.co/image/ab67706f00000003fd92285a960405af07919690"
   ];
 
   Widget listItem(String coverUrl, String albumTitle, String singerName) {
@@ -83,10 +83,10 @@ class PlayListPage extends StatelessWidget {
                 children: <Widget>[
                   listItem(coverList[0], "This Is LANY", "By Spotify"),
                   listItem(coverList[1], "This Is Drake", "By Spotify"),
-                  listItem(coverList[2], "This Is Slioknot", "By Spotify"),
-                  listItem(coverList[3], "This Is Token", "By Spotify"),
+                  listItem(coverList[2], "This Is Slipknot", "By Spotify"),
+                  listItem(coverList[3], "This Is Halsey", "By Spotify"),
                   listItem(coverList[4], "This Is NF", "By Spotify"),
-                  listItem(coverList[5], "This Is Hopsin", "By Spotify"),
+                  listItem(coverList[5], "This Is J. Cole", "By Spotify"),
                 ],
               ),
             )
